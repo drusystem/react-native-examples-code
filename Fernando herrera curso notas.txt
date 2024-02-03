@@ -1,0 +1,49 @@
+C:\Users\Usuario\AppData\Local\Android\Sdk
+
+crear proyecto:
+npx react-native init MyApp --template react-native-template-typescript
+
+Abrir el emulador:
+	npx react-native run-android
+	npx react-native run-ios
+	
+Correr en dispositivo fisico:
+	agregar esta ruta al path en variables de entorno
+		C:\Users\Usuario\AppData\Local\Android\Sdk\platform-tools
+	activar el modo debug en el celular
+	validar detección del dispositivo
+		adb devices
+	
+Creando estructura de carpetas para el desarrollo:
+	creamos SRC
+	creamos SRC/screens para las vistas
+	creamos SRC/components para los componentes
+	
+	
+generador de sombras para Android e IOS:
+	https://ethercreative.github.io/react-native-shadow-generator/
+	
+Formas de posiciones elementos en la vista:
+	
+	Box Object Model
+		Alto, ancho, margen, padding, borde
+	
+	Position
+		Absoluta, relativa, top, left, right, bottom
+	
+	Flex Box
+		Dirección, ubicación, alineamiento, estirar, encoger, proporciones
+		
+
+Agregar un snipet personalizado:
+	View>Command Palette> Buscar user snipepts > enter> buscamos react typescript
+	O Ctrl+Shift+P
+	
+	
+Notas:
+	* Para manejar notificaciones:
+		https://www.npmjs.com/package/react-native-push-notification
+		https://blog.logrocket.com/react-native-push-notifications-complete-guide
+		
+		
+		
